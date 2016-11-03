@@ -1,0 +1,42 @@
+{
+  "name": "react-periodical",
+  "version": "0.1.0",
+  "description": "React wrapper component for calling function periodically.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "NODE_ENV=production webpack --config webpack.config.js",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JYPark88/react-periodical.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "setInterval",
+    "periodical",
+    "repeat"
+  ],
+  "author": "jypark88 <hiphopgn19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JYPark88/react-periodical/issues"
+  },
+  "homepage": "https://github.com/JYPark88/react-periodical#readme",
+  "peerDependencies": {
+    "react": ">=0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.3"
+  }
+}
