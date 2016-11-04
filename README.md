@@ -65,18 +65,9 @@ max limit count
 
 if it is true, function call will be paused, with having current call count. (default : false)
 
-#### `components` : PropTypes.oneOfType(
-  [
+#### `components` :
 
-    PropTypes.arrayOf(
-      PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-    ),
-
-    PropTypes.oneOfType([PropTypes.func, PropTypes.string])
-  ]
-)
-
-just explicit child component.
+just explicit child component or components.
 
 You can understatnd directly this child or these children are effected by this function.
 
